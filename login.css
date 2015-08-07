@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-2-7, 9:13:45
+    Author     : fanzhenfei
+*/
+
+#login_click{
+    position: fixed;
+    top:5px;
+    right:10px;
+    width:80px;
+    background: #cccccc;
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+    text-align: center;
+    z-index: 1002;
+}
+#login_list{
+
+}
+#foryou{
+  text-align: center;
+  display:none ;  
+}
+#loginout{
+   text-align: center;
+  display: none;
+}
+#login{
+   text-align: center;
+}
+#mask{
+    background: #999999;
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+    z-index: 1002;
+}
+#loginkuang{
+    position: fixed;
+    width:400px;
+    height:290px;
+    background:url('./image/loginkuang.jpg')  no-repeat;
+    z-index: 1003;
+}
+#user_login{
+    margin-top:15%;
+    margin-left:20%;
+}
+#username{
+    border: 1px #999999 solid;
+}
+#password{
+    border: 1px #999999 solid;
+}
+#submit{
+    margin-top:8%;
+    margin-left:15%;
+}
+#reset{
+    margin-left:5%;
+}
+#close{
+    position: absolute;
+    margin-top: 5px;
+    right:0;
+    width:50px;
+    height:50px;
+    background: url('./image/close.png') no-repeat;
+}
+#zhucelink{
+    color: red;
+    margin-left: 35%;
+}
+.user_text{
+    margin-top: 10px;
+    font-family: '楷体';
+    color: #003300;
+    font-style: initial;
+    font-weight: 700;
+}
+.right{
+    position:absolute;
+    width:24px;
+    height: 24px;
+    display:none;
+    background: url('./image/right.png') no-repeat;
+}
+.error{
+    position: absolute;
+    width:24px;
+    height: 24px;
+    display: none;
+    background: url('./image/error.png') no-repeat;
+}
